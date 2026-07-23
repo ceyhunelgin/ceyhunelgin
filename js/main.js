@@ -224,7 +224,7 @@ document.getElementById('collapseAll').addEventListener('click', () => {
 });
 
 // publications.json'u yukle ve render et
-fetch('publications.json')
+fetch('publications.json?v=' + Date.now(), { cache: 'no-store' })
   .then((r) => {
     if (!r.ok) throw new Error('publications.json yuklenemedi: ' + r.status);
     return r.json();
@@ -358,8 +358,8 @@ function renderContact(data) {
 
 // 4 dosyayi fetch ile yukle
 function fetchJson(name) {
-  return fetch(name + '.json').then((r) => {
-    if (!r.ok) throw new Error(name + '.json: ' + r.status);
+return fetch(name + '.json?v=' + Date.now(), { cache: 'no-store' }).then((r) => {
+  if (!r.ok) throw new Error(name + '.json: ' + r.status);
     return r.json();
   });
 }
