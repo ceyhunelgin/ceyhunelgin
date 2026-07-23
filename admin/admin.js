@@ -8,7 +8,7 @@ const API = 'https://api.github.com';
 // tespit edemez; bu sabit kullanilir. SITE BASKA BIR REPOYA TASINIRSA
 // YALNIZCA BU SATIR GUNCELLENIR (bkz. DOMAIN-KURULUM.md Bolum 6).
 // Kod degistirmeden gecici cozum: paneli /admin/?repo=kullanici/repo ile acmak.
-const FALLBACK_REPO = 'muhammedebubekirkarali/ceyhunelgin';
+const FALLBACK_REPO = 'ceyhunelgin/ceyhunelgin';
 
 const FILES = {
   pubs: 'publications.json',
