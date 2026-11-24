@@ -1,7 +1,8 @@
 {
   "mails": [
     "ceyhunelgin@gmail.com",
-    "ceyhun.elgin@bogazici.edu.tr"
+    "ceyhun.elgin@bogazici.edu.tr",
+    "ceyhun.elgin@eui.eu"
   ],
   "phone": "+902123597653",
   "phone_display": "+90 212 359 76 53",
@@ -11,8 +12,12 @@
       "label": "ORCID: 0000-0001-8796-2429"
     },
     {
-      "url": "https://econ.boun.edu.tr/tr/ceyhun-elgin",
+      "url": "https://econ.bogazici.edu.tr/tr/personel/ceyhun-elgin/232/11351",
       "label": "Boğaziçi faculty page"
+    },
+    {
+      "url": "https://www.eui.eu/people?id=ceyhun-elgin",
+      "label": "EUI page"
     },
     {
       "url": "https://www.youtube.com/@kayitdisi/",
